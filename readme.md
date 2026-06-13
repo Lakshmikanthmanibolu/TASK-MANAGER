@@ -173,9 +173,9 @@ It is suitable for a **Minor Project Submission** focused on front-end web devel
 
 # 👨‍💻 Author
 
-**Bablu**
+**LAKSHMIKANTH MANIBOLU**
 
-Frontend Web Developer | Java Full Stack Learner | AI Enthusiast
+Frontend Web Developer | Java Full Stack Developer | AI Enthusiast
 
 ---
 
