@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager - Manage Your Daily Tasks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-mark">✓</div>
+                    <h1>Task Manager</h1>
+                </div>
+                <p class="header-desc">Organize your daily tasks efficiently</p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="add-task-section">
+                <div class="input-group">
+                    <input 
+                        type="text" 
+                        id="taskInput" 
+                        placeholder="Enter your task..." 
+                        class="task-input"
+                        aria-label="Task input"
+                    >
+                    <button id="addTaskBtn" class="add-btn" aria-label="Add task">
+                        <span class="btn-icon">+</span>
+                        <span class="btn-text">Add Task</span>
+                    </button>
+                </div>
+
+                <div class="quick-add">
+                    <span class="quick-label">Quick add:</span>
+                    <button class="quick-tag" data-task="Morning exercise">Morning exercise</button>
+                    <button class="quick-tag" data-task="Review project">Review project</button>
+                    <button class="quick-tag" data-task="Call client">Call client</button>
+                    <button class="quick-tag" data-task="Read 30 mins">Read 30 mins</button>
+                </div>
+            </section>
+
+            <section class="stats-section">
+                <div class="stat-card">
+                    <div class="stat-icon total">📋</div>
+                    <div class="stat-info">
+                        <span class="stat-number" id="totalTasks">0</span>
+                        <span class="stat-label">Total Tasks</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon completed">✅</div>
+                    <div class="stat-info">
+                        <span class="stat-number" id="completedTasks">0</span>
+                        <span class="stat-label">Completed</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon pending">⏳</div>
+                    <div class="stat-info">
+                        <span class="stat-number" id="pendingTasks">0</span>
+                        <span class="stat-label">Pending</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="task-list-section">
+                <div class="section-header">
+                    <h2>Your Tasks</h2>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="pending">Pending</button>
+                        <button class="filter-btn" data-filter="completed">Completed</button>
+                    </div>
+                </div>
+
+                <div id="taskList" class="task-list">
+                    <div class="empty-state">
+                        <div class="empty-emoji">📝</div>
+                        <h3>No tasks yet</h3>
+                        <p>Add your first task to start managing your day!</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Minor Project 2: Task Manager | Built with HTML, CSS & JavaScript | BY WD-FSWD-A4/May-10175 LAKSHMIKANTH MANIBOLU</p>
+        </footer>
+    </div>
+
+    <div id="notification" class="notification">
+        <span id="notificationText"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
