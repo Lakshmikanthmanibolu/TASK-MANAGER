@@ -31,7 +31,7 @@ Local storage support to preserve tasks after refresh
 
 Quick-add task suggestions for better usability
 
-Functional Expectations Covered
+**Functional Expectations Covered**
 Clean and responsive user interface
 
 Proper DOM manipulation using JavaScript
@@ -79,7 +79,8 @@ Delete a task using the delete button.
 
 Use filters to view all, pending, or completed tasks.
 
-**Key Concepts Implemented**
+**Key Concepts Implemented** 
+
 HTML
 Semantic structure using header, main, section, and footer
 
@@ -113,7 +114,7 @@ Filtering functionality
 
 Local storage save and load operations
 
-Sample Output Behavior
+**Sample Output Behavior**
 New tasks appear instantly in the list.
 
 Completed tasks show a strikethrough style.
@@ -137,5 +138,5 @@ Add dark/light theme switcher
 
 Connect with backend database for user accounts
 
-Submission Note
+**Submission Note**
 This project follows the required file structure with separate index.html, style.css, and script.js files. It is suitable for a minor project submission focused on front-end web development using core web technologies.
