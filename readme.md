@@ -1,17 +1,18 @@
-Task Manager Web Application
+**Task Manager Web Application**
 A responsive Task Manager web application built with HTML, CSS, and JavaScript. This project helps users manage daily tasks efficiently with dynamic task updates, a clean interface, and browser-based storage.
 
-Objective
+**Objective**
 Develop a Task Manager Web Application using HTML, CSS, and JavaScript to manage daily tasks efficiently.
 
-Project Structure
+**Project Structure**
 text
 Task-Manager/
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
-Features
+
+**Features**
 Add new tasks
 
 Display task list dynamically
@@ -41,7 +42,7 @@ Separate files for HTML, CSS, and JavaScript
 
 No inline CSS or JavaScript used
 
-Technologies Used
+**Technologies Used**
 HTML5
 
 CSS3
@@ -50,7 +51,7 @@ JavaScript (Vanilla JS)
 
 LocalStorage API
 
-How to Run
+**How to Run**
 Create a project folder.
 
 Save the source code into these files:
@@ -65,7 +66,7 @@ Place all files in the same folder.
 
 Open index.html in any modern web browser.
 
-How to Use
+**How to Use**
 Enter a task in the input field.
 
 Click the Add Task button or press Enter.
@@ -78,7 +79,7 @@ Delete a task using the delete button.
 
 Use filters to view all, pending, or completed tasks.
 
-Key Concepts Implemented
+**Key Concepts Implemented**
 HTML
 Semantic structure using header, main, section, and footer
 
@@ -123,7 +124,7 @@ Task counters update automatically.
 
 Data remains saved after page refresh.
 
-Future Enhancements
+**Future Enhancements**
 Add due dates for tasks
 
 Add task priority levels
