@@ -9,6 +9,11 @@ A responsive **Task Manager Web Application** built with **HTML, CSS, and JavaSc
 Develop a **Task Manager Web Application** using HTML, CSS, and JavaScript to manage daily tasks efficiently.
 
 ---
+🚀 Live Demo
+Hosted URL: https://6a2d2aa4c12b6591f0c85e64--thunderous-monstera-65f3e7.netlify.app/
+
+📂 GitHub Repository
+Repository URL: https://github.com/Lakshmikanthmanibolu/TASK-MANAGER
 
 # 📁 Project Structure
 
